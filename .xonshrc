@@ -1,0 +1,13 @@
+
+# Aliases for ssh
+$TERM = 'xterm-kitty'
+aliases['ssh'] = ['kitty', '+kitten', 'ssh']
+
+# Postgres aliases
+aliases['pg'] = ['psql', '-h', 'pomoika.cyberbydlo.com', '-p', '5432', '-d', 'sandbox']
+
+# Git bare repo for dotfiles
+aliases['dotgit'] = ['git', '--git-dir=$HOME/.cfg/', '--work-tree=$HOME'] 
+
+# Settings for Cargo
+$PATH += ['/home/dmytro/.cargo/bin']
