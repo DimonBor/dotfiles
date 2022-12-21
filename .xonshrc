@@ -9,5 +9,8 @@ aliases['pg'] = ['psql', '-h', 'pomoika.cyberbydlo.com', '-p', '5432', '-d', 'sa
 # Git bare repo for dotfiles
 aliases['dotgit'] = ['git', '--git-dir=$HOME/.cfg/', '--work-tree=$HOME'] 
 
+#Porta 
+aliases['pvpn'] = ['sudo', 'openvpn', '--config', '/home/dmytro/firecat-oci.ovpn']
+
 # Settings for Cargo
 $PATH += ['/home/dmytro/.cargo/bin']
