@@ -259,5 +259,6 @@ bar {
 }
 
 exec mako
+exec kdeconnect-indicator
 
 include /etc/sway/config.d/*
