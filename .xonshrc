@@ -1,8 +1,3 @@
-
-# Aliases for ssh
-$TERM = 'xterm-kitty'
-aliases['ssh'] = ['kitty', '+kitten', 'ssh']
-
 # Postgres aliases
 aliases['pg'] = ['psql', '-h', 'pomoika.cyberbydlo.com', '-p', '5432', '-d', 'sandbox']
 
@@ -14,3 +9,7 @@ aliases['pvpn'] = ['sudo', 'openvpn', '--config', '/home/dmytro/firecat-oci.ovpn
 
 # Settings for Cargo
 $PATH += ['/home/dmytro/.cargo/bin']
+
+# Xotribs
+xontrib load abbrevs autovox bashisms fish_completer pdb vox voxapi whole_word_jumping xog
+#
