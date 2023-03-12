@@ -13,3 +13,7 @@ $PATH += ['/home/dmytro/.cargo/bin']
 # Xotribs
 xontrib load abbrevs autovox bashisms fish_completer pdb vox voxapi whole_word_jumping xog
 #
+
+# Performance settings
+aliases['performance'] = ['sudo', 'cpupower', 'frequency-set', '-g', 'performance']
+aliases['powersave'] = ['sudo', 'cpupower', 'frequency-set', '-g', 'powersave']
