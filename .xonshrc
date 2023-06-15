@@ -7,11 +7,12 @@ aliases['dotgit'] = ['git', '--git-dir=$HOME/.cfg/', '--work-tree=$HOME']
 #Porta 
 aliases['pvpn'] = ['sudo', 'openvpn', '--config', '/home/dmytro/firecat-oci.ovpn']
 
-# Settings for Cargo
-$PATH += ['/home/dmytro/.cargo/bin']
+# Settings for PATH
+$PATH += ['/home/dmytro/.cargo/bin', '/usr/bin/vendor_perl/']
+$SHELL_TYPE = 'prompt_toolkit'
 
 # Xotribs
-xontrib load abbrevs autovox bashisms fish_completer pdb vox voxapi whole_word_jumping xog
+xontrib load abbrevs autovox bashisms fish_completer docker_tabcomplete vox voxapi whole_word_jumping
 #
 
 # Performance settings
