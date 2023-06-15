@@ -12,7 +12,7 @@ $PATH += ['/home/dmytro/.cargo/bin', '/usr/bin/vendor_perl/']
 $SHELL_TYPE = 'prompt_toolkit'
 
 # Xotribs
-xontrib load abbrevs autovox bashisms fish_completer docker_tabcomplete vox voxapi whole_word_jumping
+xontrib load abbrevs autovox bashisms fish_completer vox voxapi whole_word_jumping
 #
 
 # Performance settings
