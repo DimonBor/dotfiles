@@ -110,7 +110,7 @@ input "2:7:SynPS\/2_Synaptics_TouchPad" {
     bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
 
     # Screenshot
-    bindsym Print exec grimshot copy area
+    bindsym Print exec grimshot copy anything
 
 bindsym XF86AudioRaiseVolume exec amixer set Master 5%+
 bindsym XF86AudioLowerVolume exec amixer set Master 5%-
