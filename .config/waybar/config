@@ -20,10 +20,12 @@
 
     "modules-left": [
         "sway/workspaces",
+	"hyprland/workspaces",
         "sway/mode"
     ],
     "modules-center": [
-        "sway/window"
+        "sway/window",
+	"hyprland/window"
     ],
     "modules-right": [
         "network",
