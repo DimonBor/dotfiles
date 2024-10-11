@@ -8,7 +8,7 @@ aliases['dotgit'] = ['git', '--git-dir=$HOME/.cfg/', '--work-tree=$HOME']
 aliases['pvpn'] = ['sudo', 'openvpn', '--config', '/home/dmytro/firecat-oci.ovpn']
 
 # Settings for PATH
-$PATH += ['/home/dmytro/.cargo/bin', '/usr/bin/vendor_perl/']
+$PATH += ['/home/dmytro/.cargo/bin', '/usr/bin/vendor_perl/', '/home/dmytro/.local/bin']
 $SHELL_TYPE = 'prompt_toolkit'
 
 # Xotribs
