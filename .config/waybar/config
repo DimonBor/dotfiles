@@ -28,6 +28,7 @@
 	"hyprland/window"
     ],
     "modules-right": [
+	"hyprland/language",
         "network",
 	"pulseaudio",
         "memory",
@@ -168,6 +169,11 @@
     "tray": {
         "icon-size": 21,
         "spacing": 10
-    }
+    },
 
+     "hyprland/language": {
+	"format": "{}",
+	"format-uk": "UKR",
+	"format-en": "ENG"
+    }
 }
