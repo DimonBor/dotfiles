@@ -65,7 +65,8 @@
 #network,
 #pulseaudio,
 #temperature,
-#tray {
+#tray,
+#language {
     padding-left: 5px;
     padding-right: 5px;
 }
