@@ -3,4 +3,4 @@ if status is-interactive
 end
 
 alias dotgit='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-
+export XDG_CONFIG_HOME="$HOME/.config"
